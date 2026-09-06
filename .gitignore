@@ -1,0 +1,33 @@
+# Executables / Targets
+my_malloc
+*.exe
+*.out
+*.app
+
+# Object files and compiled libraries
+*.o
+*.obj
+*.a
+*.la
+*.so
+*.dylib
+
+# Dependency files & Build dirs (por si usas Bear, CMake o autotools en el futuro)
+compile_commands.json
+.cache/
+build/
+bin/
+
+# Editor / IDE configuration files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs & Debugger files
+*.log
+*.dSYM/
+gmon.out
+core

@@ -13,5 +13,6 @@ struct Header{
 };
 
 bool init_memory_pool(size_t size);
+void* my_malloc(size_t size);
 
 #endif
